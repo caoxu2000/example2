@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "paths": {
+      "@webServices/*": ["web-services/*"],
+      "@root/*": ["*"],
+      "@testData/*": ["test-data/*"],
+      "@utilities/*": ["utilities/*"]
+    },
+    "types": ["jest", "node"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "skipLibCheck": false
+  }
+}
